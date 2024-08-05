@@ -1,0 +1,77 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:8888"
+  },
+  "Routes": [
+    // SHORTENING SERVICE
+    // upstream path is for gateway, downstream path is for service
+    // all the services are hosted on render.com
+
+    // 1. Get all urls
+    {
+      "UpstreamPathTemplate": "/urls",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/urls",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "url-shortening-service-op2w.onrender.com",
+          "Port": 443
+        }
+      ]
+    },
+    // 2. Get url by id
+    {
+      "UpstreamPathTemplate": "/urls/{id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/urls/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "url-shortening-service-op2w.onrender.com",
+          "Port": 443
+        }
+      ]
+    },
+    // 3. Create short url
+    {
+      "UpstreamPathTemplate": "/urls",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/urls",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "url-shortening-service-op2w.onrender.com",
+          "Port": 443
+        }
+      ]
+    },
+    // 4. Delete url by id
+    {
+      "UpstreamPathTemplate": "/urls/{id}",
+      "UpstreamHttpMethod": [ "Delete" ],
+      "DownstreamPathTemplate": "/urls/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "url-shortening-service-op2w.onrender.com",
+          "Port": 443
+        }
+      ]
+    },
+
+    // REDIRECT SERVICE
+    {
+      "UpstreamPathTemplate": "/{shortUrl}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/{shortUrl}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "redirect-service-6ezs.onrender.com",
+          "Port": 443
+        }
+      ]
+    }
+  ]
+}

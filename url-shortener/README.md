@@ -1,0 +1,3 @@
+- This is the Gateway for URL Shortener project for AMD Course in FPT Greenwich University
+- All the services are implement on different repositories andn deployed on cloud
+- The default port for the Gateway is 8888
