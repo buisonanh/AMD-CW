@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+@layer utilities {
+  .text-balance {
+    /* Assuming you need a similar effect, check the CSS for supported properties */
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, #fffffc, #beb7a4);
+  }
+  .bg-beige-color {
+    background-color: #beb7a4;
+  }
+  .bg-gradient {
+    background-image: linear-gradient(to right, #fffffc, #beb7a4, 0.5);
+  }
+}

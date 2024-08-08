@@ -23,28 +23,25 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "url-shortening-service", "u
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "43824"
-		SlnRelativePath = "url-shortening-service\"
 	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "redirect-service", "redirect-service\", "{BFEDDD2A-9857-482B-BBE4-27023B5AC438}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_43927"
-		Debug.AspNetCompiler.PhysicalPath = "redirect-service\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43927\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_43824"
+		Debug.AspNetCompiler.PhysicalPath = "url-shortening-service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43824\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_43927"
-		Release.AspNetCompiler.PhysicalPath = "redirect-service\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43927\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_43824"
+		Release.AspNetCompiler.PhysicalPath = "url-shortening-service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_43824\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "43927"
-		SlnRelativePath = "redirect-service\"
+		VWDPort = "43824"
+		SlnRelativePath = "url-shortening-service\"
 	EndProjectSection
 EndProject
 Global
@@ -61,10 +58,6 @@ Global
 		{F62F1B08-8997-4800-89C7-29A45A5C5891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62F1B08-8997-4800-89C7-29A45A5C5891}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{F62F1B08-8997-4800-89C7-29A45A5C5891}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{BFEDDD2A-9857-482B-BBE4-27023B5AC438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFEDDD2A-9857-482B-BBE4-27023B5AC438}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BFEDDD2A-9857-482B-BBE4-27023B5AC438}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{BFEDDD2A-9857-482B-BBE4-27023B5AC438}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
