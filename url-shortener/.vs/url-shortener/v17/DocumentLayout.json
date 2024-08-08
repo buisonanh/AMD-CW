@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Greenwich\\AMD-CW\\url-shortener\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\ocelotapigateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:ocelotapigateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\ocelotapigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:ocelotapigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\ocelotapigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:ocelotapigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\ocelotapigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:ocelotapigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\ocelotapigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:ocelotapigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|d:\\greenwich\\amd-cw\\url-shortener\\ocelotapigateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A61801D-47BA-47FE-9DCF-6F562117A7F6}|OcelotAPIGateway\\OcelotAPIGateway.csproj|solutionrelative:ocelotapigateway\\gateway.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 84,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,33 +42,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "D:\\Greenwich\\AMD-CW\\url-shortener\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "D:\\Greenwich\\AMD-CW\\url-shortener\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-08T06:58:22.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\Dockerfile",
+              "RelativeDocumentMoniker": "OcelotAPIGateway\\Dockerfile",
+              "ToolTip": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\Dockerfile",
+              "RelativeToolTip": "OcelotAPIGateway\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-08T06:45:21.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "gateway.json",
               "DocumentMoniker": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\gateway.json",
               "RelativeDocumentMoniker": "OcelotAPIGateway\\gateway.json",
               "ToolTip": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\gateway.json",
               "RelativeToolTip": "OcelotAPIGateway\\gateway.json",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAACUAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-05T07:08:10.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "OcelotAPIGateway\\Properties\\launchSettings.json",
               "ToolTip": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\Properties\\launchSettings.json",
               "RelativeToolTip": "OcelotAPIGateway\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-05T07:23:52.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Greenwich\\AMD-CW\\url-shortener\\OcelotAPIGateway\\appsettings.json",
               "RelativeDocumentMoniker": "OcelotAPIGateway\\appsettings.json",
