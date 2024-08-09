@@ -1,6 +1,6 @@
 {
   "GlobalConfiguration": {
-    "BaseUrl": "http://10.22.48.29:8888"
+    "BaseUrl": "http://localhost:8888"
   },
   "Routes": [
     // SHORTENING SERVICE
