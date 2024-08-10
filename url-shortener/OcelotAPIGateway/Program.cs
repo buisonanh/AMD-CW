@@ -25,10 +25,22 @@ builder.Services.AddOcelot(builder.Configuration).AddCacheManager(x =>
     x.WithDictionaryHandle();
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:3000") 
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
 // app.UseHttpsRedirection();
+
+app.UseCors("AllowFrontend");
 
 // (C) enable Ocelot
 await app.UseOcelot();
