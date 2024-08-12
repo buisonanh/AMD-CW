@@ -44,9 +44,8 @@ const Body = ({ shortenedLink, setShortenedLink, fetchData }) => {
         throw new Error('No short URL returned from server');
       }
     } catch (error) {
-      console.error("There was an error shortening the link!", error);
       setShortenedLink('');
-      alert("Failed to shorten the link.\nPlease check if Alias is at least 5 characters long or not");
+      alert(error.response.data.error);
     }
   };
 
